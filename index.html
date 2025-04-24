@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png" alt="Amazon Logo">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search Amazon">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="nav-links">
+                <div class="nav-item" id="signIn">
+                    <span>Hello, Sign in</span>
+                    <span>Account & Lists</span>
+                </div>
+                <div class="nav-item" id="returns">
+                    <span>Returns</span>
+                    <span>& Orders</span>
+                </div>
+                <div class="nav-item cart" id="cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Cart</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <div class="nav-left">
+                <span class="nav-link">All</span>
+                <span class="nav-link">Today's Deals</span>
+                <span class="nav-link">Customer Service</span>
+                <span class="nav-link">Registry</span>
+                <span class="nav-link">Gift Cards</span>
+                <span class="nav-link">Sell</span>
+            </div>
+            <div class="nav-right">
+                <span class="nav-link">Shop deals in Electronics</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Image Carousel -->
+    <div class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide active">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_45M_v2_1x._CB432458380_.jpg" alt="Slide 1">
+            </div>
+            <div class="carousel-slide">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_Computers_1x._CB432469755_.jpg" alt="Slide 2">
+            </div>
+            <div class="carousel-slide">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_Toys_en_US_1x._CB431858161_.jpg" alt="Slide 3">
+            </div>
+            <button class="carousel-btn prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="carousel-btn next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <h2>Shop by Category</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg" alt="Electronics">
+                <h3>Electronics</h3>
+            </div>
+            <div class="category-card">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Computers_1x._SY304_CB432774322_.jpg" alt="Computers">
+                <h3>Computers</h3>
+            </div>
+            <div class="category-card">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Home_1x._SY304_CB432774322_.jpg" alt="Home">
+                <h3>Home</h3>
+            </div>
+            <div class="category-card">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_1x._SY304_CB432774345_.jpg" alt="Beauty">
+                <h3>Beauty</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <!-- Product cards will be added dynamically with JavaScript -->
+        </div>
+    </section>
+
+    <!-- Deals Section -->
+    <section class="deals">
+        <h2>Today's Deals</h2>
+        <div class="deals-grid">
+            <!-- Deal cards will be added dynamically with JavaScript -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Get to Know Us</h3>
+                <ul>
+                    <li class="footer-link">Careers</li>
+                    <li class="footer-link">Blog</li>
+                    <li class="footer-link">About Amazon</li>
+                    <li class="footer-link">Investor Relations</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Make Money with Us</h3>
+                <ul>
+                    <li class="footer-link">Sell products on Amazon</li>
+                    <li class="footer-link">Sell on Amazon Business</li>
+                    <li class="footer-link">Become an Affiliate</li>
+                    <li class="footer-link">Advertise Your Products</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Amazon Payment Products</h3>
+                <ul>
+                    <li class="footer-link">Amazon Business Card</li>
+                    <li class="footer-link">Shop with Points</li>
+                    <li class="footer-link">Reload Your Balance</li>
+                    <li class="footer-link">Amazon Currency Converter</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Amazon Clone. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
